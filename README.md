@@ -28,9 +28,16 @@ Ex)
 ### 4. /dataload/semti_data.py
 NSMC의 데이터를 받아와 전처리(패딩, 어텐션마스킹)를 진행하는 파일이다.
 
-### 5. 
+### 5. Naver Sentiment Analysis
 
- !@#!@#!@#
+* Dataset : <https://github.com/e9t/nsmc>
+
+| Model                                                                                               | Accuracy                                                        |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [BERT base multilingual cased](https://github.com/google-research/bert/blob/master/multilingual.md) | 0.875                                                           |
+| KoBERT                                                                                              | **[0.901](logs/bert_naver_small_512_news_simple_20190624.txt)** |
+| [KoGPT2](https://github.com/SKT-AI/KoGPT2)                                                          | 0.899                                                           |
+
 
 감상문 AI 프로젝하면서 재밌었다.
 좋은 기회 마련해주신 나승훈 교수님을 비롯한 조교들, 강사님들 감사합니다.
