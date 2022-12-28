@@ -34,9 +34,9 @@ NSMC의 데이터를 받아와 전처리(패딩, 어텐션마스킹)를 진행�
 
 | Model                                                                                               | Accuracy                                                        |
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [BERT base multilingual cased](https://github.com/google-research/bert/blob/master/multilingual.md) | 0.875                                                           |
-| KoBERT                                                                                              | **[0.901](logs/bert_naver_small_512_news_simple_20190624.txt)** |
-| [KoGPT2](https://github.com/SKT-AI/KoGPT2)                                                          | 0.899                                                           |
+| [BERT base multilingual cased](https://github.com/google-research/bert/blob/master/multilingual.md) | 86.2140                                                           |
+| KoBERT                                                                                              | 89.4760(logs/bert_naver_small_512_news_simple_20190624.txt) |
+| KcBERT                                                         | **[89.7520]                                                           |
 
 
 감상문 AI 프로젝하면서 재밌었다.
