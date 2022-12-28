@@ -10,6 +10,8 @@
 ## 2. 미세조정된 모델 평가
 평가를 위해서는 학습된 모델의 파라미터 path값을 인자로 넘겨줘야 합니다.
 Ex)
+
+
     python nsmc_eval.py --model-path 'skt_bert/bert_2022.12.28_21.46.43/gpt2_step_1200.pth' --output-dir 'skt_bert' --tokenizer_name 'monologg/kobert' --model_name 'monologg/kobert'
 
 원하는 모델 명, 토크나이저 이름, 저장위치, path 값을 /script/run_eval.sh에 입력 후에 밑의 명령어를 터미널에 입력한다.
