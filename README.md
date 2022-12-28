@@ -6,7 +6,7 @@
     sh scripts/run.sh
 
 
-**명령어 입력 후 모델의 학습 진행은 google-bert, skt-bert, kc-bert 폴더의 train.log에서 확인 가능
+**명령어 입력 후 모델의 학습 진행은 google-bert, skt-bert, kc-bert 폴더의 train.log에서 확인 가능**
 
 ## 2. 미세조정된 모델 평가
 평가를 위해서는 학습된 모델의 파라미터 path값을 인자로 넘겨줘야 합니다.
