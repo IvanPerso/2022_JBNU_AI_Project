@@ -1,0 +1,469 @@
+[2022-12-27 22:52:03,338] ============================
+[2022-12-27 22:52:03,338] ============================
+[2022-12-27 22:52:03,339] train_dataset                 :ratings_train.txt
+[2022-12-27 22:52:03,339] train_dataset                 :ratings_train.txt
+[2022-12-27 22:52:03,339] dev_dataset                   :ratings_test.txt
+[2022-12-27 22:52:03,339] dev_dataset                   :ratings_test.txt
+[2022-12-27 22:52:03,339] gpt_model_hub_name            :bert-base-multilingual-cased
+[2022-12-27 22:52:03,339] gpt_model_hub_name            :bert-base-multilingual-cased
+[2022-12-27 22:52:03,339] max_sequence_length           :512
+[2022-12-27 22:52:03,339] max_sequence_length           :512
+[2022-12-27 22:52:03,339] epochs                        :3
+[2022-12-27 22:52:03,339] epochs                        :3
+[2022-12-27 22:52:03,339] lr                            :5e-05
+[2022-12-27 22:52:03,339] lr                            :5e-05
+[2022-12-27 22:52:03,339] train_batch_size              :32
+[2022-12-27 22:52:03,339] train_batch_size              :32
+[2022-12-27 22:52:03,339] test_batch_size               :32
+[2022-12-27 22:52:03,339] test_batch_size               :32
+[2022-12-27 22:52:03,339] output_dir                    :google_bert/bert_2022.12.27_22.52.03
+[2022-12-27 22:52:03,339] output_dir                    :google_bert/bert_2022.12.27_22.52.03
+[2022-12-27 22:52:03,340] grad_clip                     :1.0
+[2022-12-27 22:52:03,340] grad_clip                     :1.0
+[2022-12-27 22:52:03,340] warmup_ratio                  :0.1
+[2022-12-27 22:52:03,340] warmup_ratio                  :0.1
+[2022-12-27 22:52:03,340] train_log_interval            :10
+[2022-12-27 22:52:03,340] train_log_interval            :10
+[2022-12-27 22:52:03,340] validation_interval           :200
+[2022-12-27 22:52:03,340] validation_interval           :200
+[2022-12-27 22:52:03,340] save_interval                 :200
+[2022-12-27 22:52:03,340] save_interval                 :200
+[2022-12-27 22:52:03,340] random_seed                   :0
+[2022-12-27 22:52:03,340] random_seed                   :0
+[2022-12-27 22:52:03,340] ============================
+[2022-12-27 22:52:03,340] ============================
+[2022-12-27 22:52:03,361] Added key: store_based_barrier_key:1 to store for rank: 2
+[2022-12-27 22:52:03,363] ============================
+[2022-12-27 22:52:03,363] train_dataset                 :ratings_train.txt
+[2022-12-27 22:52:03,364] dev_dataset                   :ratings_test.txt
+[2022-12-27 22:52:03,364] gpt_model_hub_name            :bert-base-multilingual-cased
+[2022-12-27 22:52:03,364] max_sequence_length           :512
+[2022-12-27 22:52:03,364] epochs                        :3
+[2022-12-27 22:52:03,364] lr                            :5e-05
+[2022-12-27 22:52:03,364] train_batch_size              :32
+[2022-12-27 22:52:03,364] test_batch_size               :32
+[2022-12-27 22:52:03,364] output_dir                    :google_bert/bert_2022.12.27_22.52.03
+[2022-12-27 22:52:03,364] grad_clip                     :1.0
+[2022-12-27 22:52:03,364] warmup_ratio                  :0.1
+[2022-12-27 22:52:03,364] train_log_interval            :10
+[2022-12-27 22:52:03,364] validation_interval           :200
+[2022-12-27 22:52:03,364] save_interval                 :200
+[2022-12-27 22:52:03,365] random_seed                   :0
+[2022-12-27 22:52:03,365] ============================
+[2022-12-27 22:52:03,379] Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-27 22:52:03,435] ============================
+[2022-12-27 22:52:03,436] train_dataset                 :ratings_train.txt
+[2022-12-27 22:52:03,436] dev_dataset                   :ratings_test.txt
+[2022-12-27 22:52:03,436] gpt_model_hub_name            :bert-base-multilingual-cased
+[2022-12-27 22:52:03,436] max_sequence_length           :512
+[2022-12-27 22:52:03,436] epochs                        :3
+[2022-12-27 22:52:03,436] lr                            :5e-05
+[2022-12-27 22:52:03,436] train_batch_size              :32
+[2022-12-27 22:52:03,436] test_batch_size               :32
+[2022-12-27 22:52:03,436] output_dir                    :google_bert/bert_2022.12.27_22.52.03
+[2022-12-27 22:52:03,437] grad_clip                     :1.0
+[2022-12-27 22:52:03,437] warmup_ratio                  :0.1
+[2022-12-27 22:52:03,437] train_log_interval            :10
+[2022-12-27 22:52:03,437] validation_interval           :200
+[2022-12-27 22:52:03,437] save_interval                 :200
+[2022-12-27 22:52:03,437] random_seed                   :0
+[2022-12-27 22:52:03,437] ============================
+[2022-12-27 22:52:03,767] Added key: store_based_barrier_key:1 to store for rank: 3
+[2022-12-27 22:52:03,778] Added key: store_based_barrier_key:1 to store for rank: 0
+[2022-12-27 22:52:03,779] Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2022-12-27 22:52:03,780] Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2022-12-27 22:52:03,783] Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2022-12-27 22:52:03,788] Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2022-12-27 22:52:09,941] loading train dataset
+[2022-12-27 22:52:10,042] loading train dataset
+[2022-12-27 22:52:10,140] loading train dataset
+[2022-12-27 22:52:10,188] loading train dataset
+[2022-12-27 22:53:17,466] Reducer buckets have been rebuilt in this iteration.
+[2022-12-27 22:53:17,469] Reducer buckets have been rebuilt in this iteration.
+[2022-12-27 22:53:17,472] Reducer buckets have been rebuilt in this iteration.
+[2022-12-27 22:53:17,472] Reducer buckets have been rebuilt in this iteration.
+[2022-12-27 22:53:21,658] EP:0 global_step:10 loss:0.7300 perplexity:2.0751
+[2022-12-27 22:53:25,595] EP:0 global_step:20 loss:0.6905 perplexity:1.9948
+[2022-12-27 22:53:29,536] EP:0 global_step:30 loss:0.6778 perplexity:1.9695
+[2022-12-27 22:53:33,276] EP:0 global_step:40 loss:0.6768 perplexity:1.9675
+[2022-12-27 22:53:37,102] EP:0 global_step:50 loss:0.6344 perplexity:1.8859
+[2022-12-27 22:53:41,100] EP:0 global_step:60 loss:0.6047 perplexity:1.8307
+[2022-12-27 22:53:44,947] EP:0 global_step:70 loss:0.6217 perplexity:1.8622
+[2022-12-27 22:53:48,789] EP:0 global_step:80 loss:0.5453 perplexity:1.7251
+[2022-12-27 22:53:52,490] EP:0 global_step:90 loss:0.5092 perplexity:1.6640
+[2022-12-27 22:53:56,244] EP:0 global_step:100 loss:0.4988 perplexity:1.6467
+[2022-12-27 22:54:00,159] EP:0 global_step:110 loss:0.5396 perplexity:1.7154
+[2022-12-27 22:54:03,965] EP:0 global_step:120 loss:0.4602 perplexity:1.5844
+[2022-12-27 22:54:07,801] EP:0 global_step:130 loss:0.4703 perplexity:1.6005
+[2022-12-27 22:54:11,633] EP:0 global_step:140 loss:0.4891 perplexity:1.6308
+[2022-12-27 22:54:15,427] EP:0 global_step:150 loss:0.4873 perplexity:1.6279
+[2022-12-27 22:54:19,238] EP:0 global_step:160 loss:0.4379 perplexity:1.5494
+[2022-12-27 22:54:22,933] EP:0 global_step:170 loss:0.4548 perplexity:1.5759
+[2022-12-27 22:54:26,779] EP:0 global_step:180 loss:0.4232 perplexity:1.5268
+[2022-12-27 22:54:30,581] EP:0 global_step:190 loss:0.3677 perplexity:1.4444
+[2022-12-27 22:54:34,323] EP:0 global_step:200 loss:0.4080 perplexity:1.5038
+[2022-12-27 22:54:53,431] [EVAL] global_step:200 loss:0.4183 perplexity:1.5194
+[2022-12-27 22:54:53,433] global_step: 200 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_200.pth
+[2022-12-27 22:54:58,584] EP:0 global_step:210 loss:0.3836 perplexity:1.4675
+[2022-12-27 22:55:02,279] EP:0 global_step:220 loss:0.4815 perplexity:1.6185
+[2022-12-27 22:55:06,100] EP:0 global_step:230 loss:0.3544 perplexity:1.4253
+[2022-12-27 22:55:09,897] EP:0 global_step:240 loss:0.4042 perplexity:1.4981
+[2022-12-27 22:55:13,657] EP:0 global_step:250 loss:0.4312 perplexity:1.5392
+[2022-12-27 22:55:17,427] EP:0 global_step:260 loss:0.3476 perplexity:1.4157
+[2022-12-27 22:55:21,246] EP:0 global_step:270 loss:0.4166 perplexity:1.5168
+[2022-12-27 22:55:25,050] EP:0 global_step:280 loss:0.4377 perplexity:1.5492
+[2022-12-27 22:55:28,833] EP:0 global_step:290 loss:0.4030 perplexity:1.4963
+[2022-12-27 22:55:32,673] EP:0 global_step:300 loss:0.4354 perplexity:1.5456
+[2022-12-27 22:55:36,554] EP:0 global_step:310 loss:0.3556 perplexity:1.4271
+[2022-12-27 22:55:40,229] EP:0 global_step:320 loss:0.4124 perplexity:1.5104
+[2022-12-27 22:55:44,087] EP:0 global_step:330 loss:0.4611 perplexity:1.5857
+[2022-12-27 22:55:47,908] EP:0 global_step:340 loss:0.3549 perplexity:1.4261
+[2022-12-27 22:55:51,673] EP:0 global_step:350 loss:0.3980 perplexity:1.4888
+[2022-12-27 22:55:55,519] EP:0 global_step:360 loss:0.3565 perplexity:1.4283
+[2022-12-27 22:55:59,218] EP:0 global_step:370 loss:0.3849 perplexity:1.4694
+[2022-12-27 22:56:03,061] EP:0 global_step:380 loss:0.3752 perplexity:1.4553
+[2022-12-27 22:56:06,846] EP:0 global_step:390 loss:0.3864 perplexity:1.4716
+[2022-12-27 22:56:10,584] EP:0 global_step:400 loss:0.3656 perplexity:1.4414
+[2022-12-27 22:56:29,734] [EVAL] global_step:400 loss:0.4046 perplexity:1.4987
+[2022-12-27 22:56:29,737] global_step: 400 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_400.pth
+[2022-12-27 22:56:34,886] EP:0 global_step:410 loss:0.4247 perplexity:1.5291
+[2022-12-27 22:56:38,659] EP:0 global_step:420 loss:0.3524 perplexity:1.4224
+[2022-12-27 22:56:42,461] EP:0 global_step:430 loss:0.4276 perplexity:1.5336
+[2022-12-27 22:56:46,253] EP:0 global_step:440 loss:0.4118 perplexity:1.5095
+[2022-12-27 22:56:50,124] EP:0 global_step:450 loss:0.3730 perplexity:1.4521
+[2022-12-27 22:56:53,897] EP:0 global_step:460 loss:0.3572 perplexity:1.4293
+[2022-12-27 22:56:57,748] EP:0 global_step:470 loss:0.3398 perplexity:1.4047
+[2022-12-27 22:57:01,568] EP:0 global_step:480 loss:0.3303 perplexity:1.3914
+[2022-12-27 22:57:05,378] EP:0 global_step:490 loss:0.3206 perplexity:1.3779
+[2022-12-27 22:57:09,203] EP:0 global_step:500 loss:0.3390 perplexity:1.4036
+[2022-12-27 22:57:13,095] EP:0 global_step:510 loss:0.3650 perplexity:1.4405
+[2022-12-27 22:57:16,937] EP:0 global_step:520 loss:0.3386 perplexity:1.4030
+[2022-12-27 22:57:20,703] EP:0 global_step:530 loss:0.3531 perplexity:1.4235
+[2022-12-27 22:57:24,560] EP:0 global_step:540 loss:0.3458 perplexity:1.4131
+[2022-12-27 22:57:28,433] EP:0 global_step:550 loss:0.3202 perplexity:1.3775
+[2022-12-27 22:57:32,167] EP:0 global_step:560 loss:0.3699 perplexity:1.4476
+[2022-12-27 22:57:35,904] EP:0 global_step:570 loss:0.3838 perplexity:1.4679
+[2022-12-27 22:57:39,732] EP:0 global_step:580 loss:0.3075 perplexity:1.3600
+[2022-12-27 22:57:43,572] EP:0 global_step:590 loss:0.4316 perplexity:1.5397
+[2022-12-27 22:57:47,364] EP:0 global_step:600 loss:0.3248 perplexity:1.3837
+[2022-12-27 22:58:06,535] [EVAL] global_step:600 loss:0.3505 perplexity:1.4198
+[2022-12-27 22:58:06,537] global_step: 600 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_600.pth
+[2022-12-27 22:58:11,587] EP:0 global_step:610 loss:0.3778 perplexity:1.4591
+[2022-12-27 22:58:15,541] EP:0 global_step:620 loss:0.3098 perplexity:1.3631
+[2022-12-27 22:58:19,297] EP:0 global_step:630 loss:0.2937 perplexity:1.3414
+[2022-12-27 22:58:23,022] EP:0 global_step:640 loss:0.3779 perplexity:1.4592
+[2022-12-27 22:58:26,797] EP:0 global_step:650 loss:0.2926 perplexity:1.3398
+[2022-12-27 22:58:30,608] EP:0 global_step:660 loss:0.4309 perplexity:1.5387
+[2022-12-27 22:58:34,308] EP:0 global_step:670 loss:0.3846 perplexity:1.4690
+[2022-12-27 22:58:38,147] EP:0 global_step:680 loss:0.3210 perplexity:1.3785
+[2022-12-27 22:58:41,892] EP:0 global_step:690 loss:0.3484 perplexity:1.4168
+[2022-12-27 22:58:45,763] EP:0 global_step:700 loss:0.3979 perplexity:1.4887
+[2022-12-27 22:58:49,591] EP:0 global_step:710 loss:0.3122 perplexity:1.3664
+[2022-12-27 22:58:53,648] EP:0 global_step:720 loss:0.3009 perplexity:1.3511
+[2022-12-27 22:58:57,475] EP:0 global_step:730 loss:0.4041 perplexity:1.4979
+[2022-12-27 22:59:01,268] EP:0 global_step:740 loss:0.2828 perplexity:1.3269
+[2022-12-27 22:59:05,074] EP:0 global_step:750 loss:0.3373 perplexity:1.4011
+[2022-12-27 22:59:09,006] EP:0 global_step:760 loss:0.3468 perplexity:1.4145
+[2022-12-27 22:59:12,922] EP:0 global_step:770 loss:0.3461 perplexity:1.4135
+[2022-12-27 22:59:16,824] EP:0 global_step:780 loss:0.3234 perplexity:1.3819
+[2022-12-27 22:59:20,657] EP:0 global_step:790 loss:0.3989 perplexity:1.4901
+[2022-12-27 22:59:24,480] EP:0 global_step:800 loss:0.3609 perplexity:1.4346
+[2022-12-27 22:59:43,694] [EVAL] global_step:800 loss:0.3363 perplexity:1.3998
+[2022-12-27 22:59:43,697] global_step: 800 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_800.pth
+[2022-12-27 22:59:48,840] EP:0 global_step:810 loss:0.3478 perplexity:1.4160
+[2022-12-27 22:59:52,610] EP:0 global_step:820 loss:0.3096 perplexity:1.3629
+[2022-12-27 22:59:56,459] EP:0 global_step:830 loss:0.3273 perplexity:1.3873
+[2022-12-27 23:00:00,259] EP:0 global_step:840 loss:0.2722 perplexity:1.3128
+[2022-12-27 23:00:04,156] EP:0 global_step:850 loss:0.3419 perplexity:1.4076
+[2022-12-27 23:00:08,012] EP:0 global_step:860 loss:0.3872 perplexity:1.4729
+[2022-12-27 23:00:11,882] EP:0 global_step:870 loss:0.3251 perplexity:1.3842
+[2022-12-27 23:00:15,727] EP:0 global_step:880 loss:0.3442 perplexity:1.4108
+[2022-12-27 23:00:19,415] EP:0 global_step:890 loss:0.3174 perplexity:1.3736
+[2022-12-27 23:00:23,227] EP:0 global_step:900 loss:0.3665 perplexity:1.4426
+[2022-12-27 23:00:27,014] EP:0 global_step:910 loss:0.3451 perplexity:1.4121
+[2022-12-27 23:00:30,716] EP:0 global_step:920 loss:0.2960 perplexity:1.3445
+[2022-12-27 23:00:34,545] EP:0 global_step:930 loss:0.3056 perplexity:1.3574
+[2022-12-27 23:00:38,416] EP:0 global_step:940 loss:0.2802 perplexity:1.3234
+[2022-12-27 23:00:42,329] EP:0 global_step:950 loss:0.3751 perplexity:1.4552
+[2022-12-27 23:00:46,157] EP:0 global_step:960 loss:0.3449 perplexity:1.4119
+[2022-12-27 23:00:49,962] EP:0 global_step:970 loss:0.3818 perplexity:1.4649
+[2022-12-27 23:00:53,682] EP:0 global_step:980 loss:0.3033 perplexity:1.3544
+[2022-12-27 23:00:57,594] EP:0 global_step:990 loss:0.3306 perplexity:1.3918
+[2022-12-27 23:01:01,391] EP:0 global_step:1000 loss:0.3578 perplexity:1.4302
+[2022-12-27 23:01:20,603] [EVAL] global_step:1000 loss:0.3438 perplexity:1.4102
+[2022-12-27 23:01:20,606] global_step: 1000 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_1000.pth
+[2022-12-27 23:01:25,768] EP:0 global_step:1010 loss:0.4008 perplexity:1.4930
+[2022-12-27 23:01:29,490] EP:0 global_step:1020 loss:0.2803 perplexity:1.3235
+[2022-12-27 23:01:33,307] EP:0 global_step:1030 loss:0.3431 perplexity:1.4093
+[2022-12-27 23:01:36,953] EP:0 global_step:1040 loss:0.3046 perplexity:1.3561
+[2022-12-27 23:01:40,777] EP:0 global_step:1050 loss:0.3159 perplexity:1.3715
+[2022-12-27 23:01:44,659] EP:0 global_step:1060 loss:0.3289 perplexity:1.3895
+[2022-12-27 23:01:48,368] EP:0 global_step:1070 loss:0.2755 perplexity:1.3172
+[2022-12-27 23:01:52,234] EP:0 global_step:1080 loss:0.3121 perplexity:1.3663
+[2022-12-27 23:01:55,985] EP:0 global_step:1090 loss:0.2532 perplexity:1.2882
+[2022-12-27 23:01:59,763] EP:0 global_step:1100 loss:0.3252 perplexity:1.3842
+[2022-12-27 23:02:03,584] EP:0 global_step:1110 loss:0.3656 perplexity:1.4414
+[2022-12-27 23:02:07,394] EP:0 global_step:1120 loss:0.3564 perplexity:1.4282
+[2022-12-27 23:02:11,037] EP:0 global_step:1130 loss:0.3278 perplexity:1.3879
+[2022-12-27 23:02:14,743] EP:0 global_step:1140 loss:0.2901 perplexity:1.3366
+[2022-12-27 23:02:18,525] EP:0 global_step:1150 loss:0.3323 perplexity:1.3941
+[2022-12-27 23:02:22,303] EP:0 global_step:1160 loss:0.2928 perplexity:1.3401
+[2022-12-27 23:02:26,126] EP:0 global_step:1170 loss:0.2728 perplexity:1.3136
+[2022-12-27 23:02:30,084] EP:1 global_step:1180 loss:0.3157 perplexity:1.3712
+[2022-12-27 23:02:33,845] EP:1 global_step:1190 loss:0.3318 perplexity:1.3935
+[2022-12-27 23:02:37,652] EP:1 global_step:1200 loss:0.2777 perplexity:1.3201
+[2022-12-27 23:02:56,895] [EVAL] global_step:1200 loss:0.3193 perplexity:1.3762
+[2022-12-27 23:02:56,898] global_step: 1200 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_1200.pth
+[2022-12-27 23:03:01,960] EP:1 global_step:1210 loss:0.3285 perplexity:1.3889
+[2022-12-27 23:03:05,743] EP:1 global_step:1220 loss:0.2933 perplexity:1.3409
+[2022-12-27 23:03:09,723] EP:1 global_step:1230 loss:0.2850 perplexity:1.3297
+[2022-12-27 23:03:13,615] EP:1 global_step:1240 loss:0.3133 perplexity:1.3679
+[2022-12-27 23:03:17,470] EP:1 global_step:1250 loss:0.3105 perplexity:1.3641
+[2022-12-27 23:03:21,197] EP:1 global_step:1260 loss:0.2738 perplexity:1.3149
+[2022-12-27 23:03:24,975] EP:1 global_step:1270 loss:0.3366 perplexity:1.4002
+[2022-12-27 23:03:28,851] EP:1 global_step:1280 loss:0.3411 perplexity:1.4065
+[2022-12-27 23:03:32,693] EP:1 global_step:1290 loss:0.2958 perplexity:1.3441
+[2022-12-27 23:03:36,552] EP:1 global_step:1300 loss:0.3296 perplexity:1.3905
+[2022-12-27 23:03:40,480] EP:1 global_step:1310 loss:0.3265 perplexity:1.3861
+[2022-12-27 23:03:44,195] EP:1 global_step:1320 loss:0.2922 perplexity:1.3394
+[2022-12-27 23:03:48,017] EP:1 global_step:1330 loss:0.2645 perplexity:1.3028
+[2022-12-27 23:03:51,716] EP:1 global_step:1340 loss:0.3148 perplexity:1.3700
+[2022-12-27 23:03:55,538] EP:1 global_step:1350 loss:0.2773 perplexity:1.3196
+[2022-12-27 23:03:59,373] EP:1 global_step:1360 loss:0.2509 perplexity:1.2852
+[2022-12-27 23:04:03,144] EP:1 global_step:1370 loss:0.2420 perplexity:1.2738
+[2022-12-27 23:04:06,913] EP:1 global_step:1380 loss:0.2591 perplexity:1.2957
+[2022-12-27 23:04:10,625] EP:1 global_step:1390 loss:0.3064 perplexity:1.3585
+[2022-12-27 23:04:14,439] EP:1 global_step:1400 loss:0.2306 perplexity:1.2593
+[2022-12-27 23:04:33,674] [EVAL] global_step:1400 loss:0.3237 perplexity:1.3823
+[2022-12-27 23:04:33,677] global_step: 1400 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_1400.pth
+[2022-12-27 23:04:38,771] EP:1 global_step:1410 loss:0.2517 perplexity:1.2862
+[2022-12-27 23:04:42,520] EP:1 global_step:1420 loss:0.2815 perplexity:1.3251
+[2022-12-27 23:04:46,280] EP:1 global_step:1430 loss:0.2382 perplexity:1.2690
+[2022-12-27 23:04:50,092] EP:1 global_step:1440 loss:0.2915 perplexity:1.3384
+[2022-12-27 23:04:53,875] EP:1 global_step:1450 loss:0.3118 perplexity:1.3659
+[2022-12-27 23:04:57,726] EP:1 global_step:1460 loss:0.2850 perplexity:1.3298
+[2022-12-27 23:05:01,512] EP:1 global_step:1470 loss:0.2943 perplexity:1.3422
+[2022-12-27 23:05:05,414] EP:1 global_step:1480 loss:0.2661 perplexity:1.3048
+[2022-12-27 23:05:09,092] EP:1 global_step:1490 loss:0.2313 perplexity:1.2602
+[2022-12-27 23:05:13,002] EP:1 global_step:1500 loss:0.3110 perplexity:1.3648
+[2022-12-27 23:05:16,794] EP:1 global_step:1510 loss:0.2504 perplexity:1.2846
+[2022-12-27 23:05:20,600] EP:1 global_step:1520 loss:0.2326 perplexity:1.2619
+[2022-12-27 23:05:24,485] EP:1 global_step:1530 loss:0.2390 perplexity:1.2700
+[2022-12-27 23:05:28,148] EP:1 global_step:1540 loss:0.2459 perplexity:1.2788
+[2022-12-27 23:05:32,031] EP:1 global_step:1550 loss:0.2332 perplexity:1.2627
+[2022-12-27 23:05:35,754] EP:1 global_step:1560 loss:0.2907 perplexity:1.3374
+[2022-12-27 23:05:39,512] EP:1 global_step:1570 loss:0.2235 perplexity:1.2504
+[2022-12-27 23:05:43,334] EP:1 global_step:1580 loss:0.2774 perplexity:1.3197
+[2022-12-27 23:05:47,097] EP:1 global_step:1590 loss:0.2763 perplexity:1.3183
+[2022-12-27 23:05:50,910] EP:1 global_step:1600 loss:0.2438 perplexity:1.2760
+[2022-12-27 23:06:10,092] [EVAL] global_step:1600 loss:0.3253 perplexity:1.3844
+[2022-12-27 23:06:10,095] global_step: 1600 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_1600.pth
+[2022-12-27 23:06:15,183] EP:1 global_step:1610 loss:0.2878 perplexity:1.3334
+[2022-12-27 23:06:19,111] EP:1 global_step:1620 loss:0.2385 perplexity:1.2694
+[2022-12-27 23:06:22,874] EP:1 global_step:1630 loss:0.2343 perplexity:1.2640
+[2022-12-27 23:06:26,698] EP:1 global_step:1640 loss:0.2347 perplexity:1.2645
+[2022-12-27 23:06:30,474] EP:1 global_step:1650 loss:0.2148 perplexity:1.2396
+[2022-12-27 23:06:34,209] EP:1 global_step:1660 loss:0.1969 perplexity:1.2176
+[2022-12-27 23:06:38,033] EP:1 global_step:1670 loss:0.1971 perplexity:1.2179
+[2022-12-27 23:06:41,939] EP:1 global_step:1680 loss:0.2743 perplexity:1.3156
+[2022-12-27 23:06:45,837] EP:1 global_step:1690 loss:0.1617 perplexity:1.1756
+[2022-12-27 23:06:49,631] EP:1 global_step:1700 loss:0.2417 perplexity:1.2734
+[2022-12-27 23:06:53,512] EP:1 global_step:1710 loss:0.2628 perplexity:1.3006
+[2022-12-27 23:06:57,417] EP:1 global_step:1720 loss:0.2142 perplexity:1.2388
+[2022-12-27 23:07:01,179] EP:1 global_step:1730 loss:0.2706 perplexity:1.3108
+[2022-12-27 23:07:04,942] EP:1 global_step:1740 loss:0.2297 perplexity:1.2582
+[2022-12-27 23:07:08,844] EP:1 global_step:1750 loss:0.1910 perplexity:1.2105
+[2022-12-27 23:07:12,694] EP:1 global_step:1760 loss:0.2950 perplexity:1.3431
+[2022-12-27 23:07:16,538] EP:1 global_step:1770 loss:0.1683 perplexity:1.1833
+[2022-12-27 23:07:20,366] EP:1 global_step:1780 loss:0.2495 perplexity:1.2834
+[2022-12-27 23:07:24,271] EP:1 global_step:1790 loss:0.1571 perplexity:1.1701
+[2022-12-27 23:07:28,138] EP:1 global_step:1800 loss:0.2093 perplexity:1.2328
+[2022-12-27 23:07:47,310] [EVAL] global_step:1800 loss:0.3494 perplexity:1.4183
+[2022-12-27 23:07:47,313] global_step: 1800 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_1800.pth
+[2022-12-27 23:07:52,417] EP:1 global_step:1810 loss:0.1924 perplexity:1.2122
+[2022-12-27 23:07:56,234] EP:1 global_step:1820 loss:0.1961 perplexity:1.2167
+[2022-12-27 23:08:00,096] EP:1 global_step:1830 loss:0.2148 perplexity:1.2397
+[2022-12-27 23:08:03,857] EP:1 global_step:1840 loss:0.2729 perplexity:1.3138
+[2022-12-27 23:08:07,722] EP:1 global_step:1850 loss:0.2275 perplexity:1.2555
+[2022-12-27 23:08:11,463] EP:1 global_step:1860 loss:0.2240 perplexity:1.2510
+[2022-12-27 23:08:15,385] EP:1 global_step:1870 loss:0.2610 perplexity:1.2982
+[2022-12-27 23:08:19,212] EP:1 global_step:1880 loss:0.2387 perplexity:1.2695
+[2022-12-27 23:08:23,135] EP:1 global_step:1890 loss:0.1771 perplexity:1.1937
+[2022-12-27 23:08:27,011] EP:1 global_step:1900 loss:0.2357 perplexity:1.2658
+[2022-12-27 23:08:30,815] EP:1 global_step:1910 loss:0.2248 perplexity:1.2520
+[2022-12-27 23:08:34,623] EP:1 global_step:1920 loss:0.2134 perplexity:1.2378
+[2022-12-27 23:08:38,517] EP:1 global_step:1930 loss:0.2572 perplexity:1.2932
+[2022-12-27 23:08:42,486] EP:1 global_step:1940 loss:0.1601 perplexity:1.1736
+[2022-12-27 23:08:46,374] EP:1 global_step:1950 loss:0.2088 perplexity:1.2322
+[2022-12-27 23:08:50,196] EP:1 global_step:1960 loss:0.2171 perplexity:1.2425
+[2022-12-27 23:08:53,966] EP:1 global_step:1970 loss:0.2134 perplexity:1.2379
+[2022-12-27 23:08:57,842] EP:1 global_step:1980 loss:0.2334 perplexity:1.2629
+[2022-12-27 23:09:01,750] EP:1 global_step:1990 loss:0.1822 perplexity:1.1998
+[2022-12-27 23:09:05,577] EP:1 global_step:2000 loss:0.2075 perplexity:1.2307
+[2022-12-27 23:09:24,720] [EVAL] global_step:2000 loss:0.3448 perplexity:1.4117
+[2022-12-27 23:09:24,723] global_step: 2000 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_2000.pth
+[2022-12-27 23:09:29,826] EP:1 global_step:2010 loss:0.1268 perplexity:1.1352
+[2022-12-27 23:09:33,700] EP:1 global_step:2020 loss:0.1534 perplexity:1.1658
+[2022-12-27 23:09:37,622] EP:1 global_step:2030 loss:0.1920 perplexity:1.2117
+[2022-12-27 23:09:41,519] EP:1 global_step:2040 loss:0.2074 perplexity:1.2305
+[2022-12-27 23:09:45,397] EP:1 global_step:2050 loss:0.1861 perplexity:1.2045
+[2022-12-27 23:09:49,111] EP:1 global_step:2060 loss:0.1488 perplexity:1.1604
+[2022-12-27 23:09:52,930] EP:1 global_step:2070 loss:0.2130 perplexity:1.2374
+[2022-12-27 23:09:56,653] EP:1 global_step:2080 loss:0.1750 perplexity:1.1912
+[2022-12-27 23:10:00,408] EP:1 global_step:2090 loss:0.1371 perplexity:1.1470
+[2022-12-27 23:10:04,266] EP:1 global_step:2100 loss:0.1650 perplexity:1.1794
+[2022-12-27 23:10:08,075] EP:1 global_step:2110 loss:0.1254 perplexity:1.1336
+[2022-12-27 23:10:11,989] EP:1 global_step:2120 loss:0.1947 perplexity:1.2150
+[2022-12-27 23:10:15,850] EP:1 global_step:2130 loss:0.2160 perplexity:1.2411
+[2022-12-27 23:10:19,602] EP:1 global_step:2140 loss:0.2028 perplexity:1.2248
+[2022-12-27 23:10:23,361] EP:1 global_step:2150 loss:0.1825 perplexity:1.2002
+[2022-12-27 23:10:27,300] EP:1 global_step:2160 loss:0.1931 perplexity:1.2130
+[2022-12-27 23:10:31,060] EP:1 global_step:2170 loss:0.2441 perplexity:1.2765
+[2022-12-27 23:10:35,024] EP:1 global_step:2180 loss:0.2492 perplexity:1.2830
+[2022-12-27 23:10:38,861] EP:1 global_step:2190 loss:0.1488 perplexity:1.1604
+[2022-12-27 23:10:42,802] EP:1 global_step:2200 loss:0.1402 perplexity:1.1505
+[2022-12-27 23:11:01,979] [EVAL] global_step:2200 loss:0.3804 perplexity:1.4629
+[2022-12-27 23:11:01,982] global_step: 2200 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_2200.pth
+[2022-12-27 23:11:07,012] EP:1 global_step:2210 loss:0.2039 perplexity:1.2262
+[2022-12-27 23:11:10,860] EP:1 global_step:2220 loss:0.2005 perplexity:1.2220
+[2022-12-27 23:11:14,778] EP:1 global_step:2230 loss:0.1650 perplexity:1.1794
+[2022-12-27 23:11:18,501] EP:1 global_step:2240 loss:0.1774 perplexity:1.1941
+[2022-12-27 23:11:22,401] EP:1 global_step:2250 loss:0.1587 perplexity:1.1720
+[2022-12-27 23:11:26,274] EP:1 global_step:2260 loss:0.1725 perplexity:1.1883
+[2022-12-27 23:11:29,953] EP:1 global_step:2270 loss:0.2028 perplexity:1.2248
+[2022-12-27 23:11:33,783] EP:1 global_step:2280 loss:0.2295 perplexity:1.2579
+[2022-12-27 23:11:37,623] EP:1 global_step:2290 loss:0.1879 perplexity:1.2067
+[2022-12-27 23:11:41,300] EP:1 global_step:2300 loss:0.1502 perplexity:1.1621
+[2022-12-27 23:11:44,975] EP:1 global_step:2310 loss:0.2100 perplexity:1.2337
+[2022-12-27 23:11:48,823] EP:1 global_step:2320 loss:0.1910 perplexity:1.2105
+[2022-12-27 23:11:52,515] EP:1 global_step:2330 loss:0.1448 perplexity:1.1559
+[2022-12-27 23:11:56,427] EP:1 global_step:2340 loss:0.1176 perplexity:1.1248
+[2022-12-27 23:12:00,369] EP:2 global_step:2350 loss:0.1689 perplexity:1.1840
+[2022-12-27 23:12:04,170] EP:2 global_step:2360 loss:0.1749 perplexity:1.1911
+[2022-12-27 23:12:08,110] EP:2 global_step:2370 loss:0.1603 perplexity:1.1739
+[2022-12-27 23:12:12,005] EP:2 global_step:2380 loss:0.1853 perplexity:1.2036
+[2022-12-27 23:12:15,827] EP:2 global_step:2390 loss:0.1596 perplexity:1.1730
+[2022-12-27 23:12:19,766] EP:2 global_step:2400 loss:0.1491 perplexity:1.1608
+[2022-12-27 23:12:38,943] [EVAL] global_step:2400 loss:0.3486 perplexity:1.4171
+[2022-12-27 23:12:38,947] global_step: 2400 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_2400.pth
+[2022-12-27 23:12:44,196] EP:2 global_step:2410 loss:0.1211 perplexity:1.1288
+[2022-12-27 23:12:48,021] EP:2 global_step:2420 loss:0.2006 perplexity:1.2222
+[2022-12-27 23:12:51,732] EP:2 global_step:2430 loss:0.1403 perplexity:1.1506
+[2022-12-27 23:12:55,477] EP:2 global_step:2440 loss:0.1666 perplexity:1.1813
+[2022-12-27 23:12:59,321] EP:2 global_step:2450 loss:0.1840 perplexity:1.2020
+[2022-12-27 23:13:03,218] EP:2 global_step:2460 loss:0.1776 perplexity:1.1943
+[2022-12-27 23:13:07,051] EP:2 global_step:2470 loss:0.1937 perplexity:1.2137
+[2022-12-27 23:13:10,923] EP:2 global_step:2480 loss:0.1539 perplexity:1.1664
+[2022-12-27 23:13:14,769] EP:2 global_step:2490 loss:0.2027 perplexity:1.2247
+[2022-12-27 23:13:18,563] EP:2 global_step:2500 loss:0.1072 perplexity:1.1132
+[2022-12-27 23:13:22,247] EP:2 global_step:2510 loss:0.1213 perplexity:1.1290
+[2022-12-27 23:13:26,072] EP:2 global_step:2520 loss:0.1616 perplexity:1.1754
+[2022-12-27 23:13:29,929] EP:2 global_step:2530 loss:0.1350 perplexity:1.1445
+[2022-12-27 23:13:33,681] EP:2 global_step:2540 loss:0.1286 perplexity:1.1373
+[2022-12-27 23:13:37,478] EP:2 global_step:2550 loss:0.1622 perplexity:1.1761
+[2022-12-27 23:13:41,307] EP:2 global_step:2560 loss:0.1278 perplexity:1.1363
+[2022-12-27 23:13:45,075] EP:2 global_step:2570 loss:0.1413 perplexity:1.1517
+[2022-12-27 23:13:48,945] EP:2 global_step:2580 loss:0.1384 perplexity:1.1484
+[2022-12-27 23:13:52,746] EP:2 global_step:2590 loss:0.1888 perplexity:1.2078
+[2022-12-27 23:13:56,650] EP:2 global_step:2600 loss:0.1140 perplexity:1.1207
+[2022-12-27 23:14:15,850] [EVAL] global_step:2600 loss:0.3847 perplexity:1.4692
+[2022-12-27 23:14:15,852] global_step: 2600 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_2600.pth
+[2022-12-27 23:14:20,989] EP:2 global_step:2610 loss:0.1338 perplexity:1.1431
+[2022-12-27 23:14:24,781] EP:2 global_step:2620 loss:0.1714 perplexity:1.1869
+[2022-12-27 23:14:28,573] EP:2 global_step:2630 loss:0.1176 perplexity:1.1248
+[2022-12-27 23:14:32,420] EP:2 global_step:2640 loss:0.1509 perplexity:1.1629
+[2022-12-27 23:14:36,294] EP:2 global_step:2650 loss:0.1399 perplexity:1.1502
+[2022-12-27 23:14:40,028] EP:2 global_step:2660 loss:0.0970 perplexity:1.1019
+[2022-12-27 23:14:43,880] EP:2 global_step:2670 loss:0.1425 perplexity:1.1531
+[2022-12-27 23:14:47,723] EP:2 global_step:2680 loss:0.1900 perplexity:1.2092
+[2022-12-27 23:14:51,478] EP:2 global_step:2690 loss:0.0780 perplexity:1.0811
+[2022-12-27 23:14:55,397] EP:2 global_step:2700 loss:0.1086 perplexity:1.1147
+[2022-12-27 23:14:59,128] EP:2 global_step:2710 loss:0.0770 perplexity:1.0800
+[2022-12-27 23:15:02,955] EP:2 global_step:2720 loss:0.1599 perplexity:1.1734
+[2022-12-27 23:15:06,744] EP:2 global_step:2730 loss:0.1442 perplexity:1.1551
+[2022-12-27 23:15:10,576] EP:2 global_step:2740 loss:0.1108 perplexity:1.1171
+[2022-12-27 23:15:14,384] EP:2 global_step:2750 loss:0.1476 perplexity:1.1591
+[2022-12-27 23:15:18,212] EP:2 global_step:2760 loss:0.1829 perplexity:1.2007
+[2022-12-27 23:15:22,004] EP:2 global_step:2770 loss:0.1130 perplexity:1.1196
+[2022-12-27 23:15:25,868] EP:2 global_step:2780 loss:0.1828 perplexity:1.2005
+[2022-12-27 23:15:29,900] EP:2 global_step:2790 loss:0.1029 perplexity:1.1083
+[2022-12-27 23:15:33,654] EP:2 global_step:2800 loss:0.1203 perplexity:1.1279
+[2022-12-27 23:15:52,967] [EVAL] global_step:2800 loss:0.4200 perplexity:1.5220
+[2022-12-27 23:15:52,971] global_step: 2800 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_2800.pth
+[2022-12-27 23:15:59,119] EP:2 global_step:2810 loss:0.1062 perplexity:1.1121
+[2022-12-27 23:16:03,355] EP:2 global_step:2820 loss:0.1540 perplexity:1.1664
+[2022-12-27 23:16:07,540] EP:2 global_step:2830 loss:0.0913 perplexity:1.0956
+[2022-12-27 23:16:11,741] EP:2 global_step:2840 loss:0.0862 perplexity:1.0901
+[2022-12-27 23:16:15,796] EP:2 global_step:2850 loss:0.0617 perplexity:1.0636
+[2022-12-27 23:16:19,764] EP:2 global_step:2860 loss:0.0787 perplexity:1.0819
+[2022-12-27 23:16:23,579] EP:2 global_step:2870 loss:0.1037 perplexity:1.1093
+[2022-12-27 23:16:27,447] EP:2 global_step:2880 loss:0.1276 perplexity:1.1360
+[2022-12-27 23:16:31,444] EP:2 global_step:2890 loss:0.1175 perplexity:1.1247
+[2022-12-27 23:16:35,240] EP:2 global_step:2900 loss:0.1561 perplexity:1.1690
+[2022-12-27 23:16:39,022] EP:2 global_step:2910 loss:0.1141 perplexity:1.1209
+[2022-12-27 23:16:42,884] EP:2 global_step:2920 loss:0.1024 perplexity:1.1078
+[2022-12-27 23:16:46,652] EP:2 global_step:2930 loss:0.1180 perplexity:1.1253
+[2022-12-27 23:16:50,527] EP:2 global_step:2940 loss:0.1057 perplexity:1.1115
+[2022-12-27 23:16:54,294] EP:2 global_step:2950 loss:0.1091 perplexity:1.1153
+[2022-12-27 23:16:58,176] EP:2 global_step:2960 loss:0.0728 perplexity:1.0755
+[2022-12-27 23:17:02,039] EP:2 global_step:2970 loss:0.0711 perplexity:1.0737
+[2022-12-27 23:17:05,852] EP:2 global_step:2980 loss:0.1012 perplexity:1.1065
+[2022-12-27 23:17:09,583] EP:2 global_step:2990 loss:0.0822 perplexity:1.0857
+[2022-12-27 23:17:13,414] EP:2 global_step:3000 loss:0.1137 perplexity:1.1205
+[2022-12-27 23:17:32,621] [EVAL] global_step:3000 loss:0.4413 perplexity:1.5547
+[2022-12-27 23:17:32,624] global_step: 3000 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_3000.pth
+[2022-12-27 23:17:38,098] EP:2 global_step:3010 loss:0.1711 perplexity:1.1866
+[2022-12-27 23:17:41,931] EP:2 global_step:3020 loss:0.1303 perplexity:1.1392
+[2022-12-27 23:17:45,782] EP:2 global_step:3030 loss:0.0877 perplexity:1.0917
+[2022-12-27 23:17:49,691] EP:2 global_step:3040 loss:0.1613 perplexity:1.1750
+[2022-12-27 23:17:53,534] EP:2 global_step:3050 loss:0.0604 perplexity:1.0623
+[2022-12-27 23:17:58,005] EP:2 global_step:3060 loss:0.0706 perplexity:1.0732
+[2022-12-27 23:18:02,261] EP:2 global_step:3070 loss:0.1069 perplexity:1.1128
+[2022-12-27 23:18:06,682] EP:2 global_step:3080 loss:0.1450 perplexity:1.1560
+[2022-12-27 23:18:11,019] EP:2 global_step:3090 loss:0.1061 perplexity:1.1119
+[2022-12-27 23:18:15,618] EP:2 global_step:3100 loss:0.1332 perplexity:1.1425
+[2022-12-27 23:18:20,280] EP:2 global_step:3110 loss:0.1041 perplexity:1.1097
+[2022-12-27 23:18:24,662] EP:2 global_step:3120 loss:0.1103 perplexity:1.1166
+[2022-12-27 23:18:28,809] EP:2 global_step:3130 loss:0.0847 perplexity:1.0884
+[2022-12-27 23:18:33,047] EP:2 global_step:3140 loss:0.0931 perplexity:1.0975
+[2022-12-27 23:18:37,415] EP:2 global_step:3150 loss:0.1206 perplexity:1.1282
+[2022-12-27 23:18:41,551] EP:2 global_step:3160 loss:0.1209 perplexity:1.1285
+[2022-12-27 23:18:45,317] EP:2 global_step:3170 loss:0.1293 perplexity:1.1380
+[2022-12-27 23:18:49,172] EP:2 global_step:3180 loss:0.0440 perplexity:1.0449
+[2022-12-27 23:18:53,056] EP:2 global_step:3190 loss:0.0531 perplexity:1.0545
+[2022-12-27 23:18:56,977] EP:2 global_step:3200 loss:0.0567 perplexity:1.0583
+[2022-12-27 23:19:16,164] [EVAL] global_step:3200 loss:0.4677 perplexity:1.5963
+[2022-12-27 23:19:16,167] global_step: 3200 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_3200.pth
+[2022-12-27 23:19:21,412] EP:2 global_step:3210 loss:0.0923 perplexity:1.0967
+[2022-12-27 23:19:25,288] EP:2 global_step:3220 loss:0.0873 perplexity:1.0912
+[2022-12-27 23:19:29,046] EP:2 global_step:3230 loss:0.0507 perplexity:1.0520
+[2022-12-27 23:19:32,940] EP:2 global_step:3240 loss:0.1038 perplexity:1.1094
+[2022-12-27 23:19:36,674] EP:2 global_step:3250 loss:0.0820 perplexity:1.0855
+[2022-12-27 23:19:40,393] EP:2 global_step:3260 loss:0.0384 perplexity:1.0392
+[2022-12-27 23:19:44,242] EP:2 global_step:3270 loss:0.0703 perplexity:1.0729
+[2022-12-27 23:19:48,092] EP:2 global_step:3280 loss:0.0686 perplexity:1.0710
+[2022-12-27 23:19:51,985] EP:2 global_step:3290 loss:0.0777 perplexity:1.0808
+[2022-12-27 23:19:55,943] EP:2 global_step:3300 loss:0.1299 perplexity:1.1387
+[2022-12-27 23:19:59,644] EP:2 global_step:3310 loss:0.1117 perplexity:1.1182
+[2022-12-27 23:20:03,358] EP:2 global_step:3320 loss:0.0649 perplexity:1.0671
+[2022-12-27 23:20:07,206] EP:2 global_step:3330 loss:0.1153 perplexity:1.1222
+[2022-12-27 23:20:10,957] EP:2 global_step:3340 loss:0.0691 perplexity:1.0716
+[2022-12-27 23:20:14,761] EP:2 global_step:3350 loss:0.1251 perplexity:1.1333
+[2022-12-27 23:20:18,629] EP:2 global_step:3360 loss:0.0887 perplexity:1.0927
+[2022-12-27 23:20:22,457] EP:2 global_step:3370 loss:0.0510 perplexity:1.0524
+[2022-12-27 23:20:26,135] EP:2 global_step:3380 loss:0.0863 perplexity:1.0901
+[2022-12-27 23:20:29,947] EP:2 global_step:3390 loss:0.1018 perplexity:1.1071
+[2022-12-27 23:20:33,827] EP:2 global_step:3400 loss:0.1139 perplexity:1.1207
+[2022-12-27 23:20:53,023] [EVAL] global_step:3400 loss:0.4706 perplexity:1.6010
+[2022-12-27 23:20:53,025] global_step: 3400 model saved at google_bert/bert_2022.12.27_22.52.03/gpt2_step_3400.pth
+[2022-12-27 23:20:58,113] EP:2 global_step:3410 loss:0.1097 perplexity:1.1159
+[2022-12-27 23:21:01,936] EP:2 global_step:3420 loss:0.0827 perplexity:1.0862
+[2022-12-27 23:21:05,806] EP:2 global_step:3430 loss:0.1163 perplexity:1.1234
+[2022-12-27 23:21:09,507] EP:2 global_step:3440 loss:0.0976 perplexity:1.1025
+[2022-12-27 23:21:13,296] EP:2 global_step:3450 loss:0.0726 perplexity:1.0753
+[2022-12-27 23:21:17,161] EP:2 global_step:3460 loss:0.1150 perplexity:1.1219
+[2022-12-27 23:21:20,833] EP:2 global_step:3470 loss:0.0698 perplexity:1.0723
+[2022-12-27 23:21:24,502] EP:2 global_step:3480 loss:0.1171 perplexity:1.1242
+[2022-12-27 23:21:28,300] EP:2 global_step:3490 loss:0.1132 perplexity:1.1199
+[2022-12-27 23:21:32,025] EP:2 global_step:3500 loss:0.0730 perplexity:1.0757
+[2022-12-27 23:21:35,870] EP:2 global_step:3510 loss:0.0579 perplexity:1.0597
